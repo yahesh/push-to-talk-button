@@ -10,7 +10,7 @@
   # macOS:
 
   1.) Install iCanHazShortcut (https://github.com/deseven/icanhazshortcut), e.g. via Homebrew `brew cask install icanhazshortcut`
-  2.) Start iCanHazShortcut and go the Shortcuts tab of the Preferences window
+  2.) Start iCanHazShortcut and go to the Shortcuts tab of the Preferences window
   3.) Create a shortcut named "MUTE" with command `osascript -e "set volume input volume 0"` and shortcut SHIFT CTRL CMD M
   4.) Create a shortcut named "UNMUTE" with command `osascript -e "set volume input volume 75"` and shortcut SHIFT CTRL CMD U
 */
