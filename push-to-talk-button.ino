@@ -104,7 +104,7 @@ void loop() {
 
   uint8_t loop_state = LOOP_STATE_EXIT;  
   
-  // if the button state changed then debounce the button
+  // only enter the loop when the button state changed
   if (BUTTON_STATE != button_state) {
     // start the state machine
     loop_state = LOOP_STATE_INIT_DEBOUNCE;
@@ -128,7 +128,7 @@ void loop() {
           break;
         }
 
-        case LOOP_STATE_INIT_DEBOUNCE:{
+        case LOOP_STATE_INIT_DEBOUNCE: {
           // store the current time
           current_time  = millis();
 
