@@ -46,7 +46,7 @@ This is one possible way to build your own Push-to-Talk-Button.
 
 The Push-to-Talk button sends the key combination `SHIFT CTRL CMD M` when muting the computer and the key combination `SHIFT CTRL CMD U` when unmuting the computer.
 
-**Optional:** When using the `SCRIPTED_ALTERNATE_MODE` the Push-To-Talk button sends the additional key combination `SHIFT CTRL CMD A` when using the double click alternation feature. Otherwise, it alternates between mute and unmute after an initiale use of the push-to-talk mute/unmute actions for calibration.
+**Optional:** When using the `SCRIPTED_ALTERNATE_MODE` the Push-To-Talk button sends the additional key combination `SHIFT CTRL CMD A` when using the double click alternation feature. Otherwise, it alternates between mute and unmute after an initial use of the push-to-talk mute/unmute actions for calibration.
 
 ### Debian
 
@@ -60,7 +60,7 @@ To react to the key combinations you can do the following:
 
 To react to the key combinations you can do the following:
 
-1. Install [iCanHazShortcut](https://github.com/deseven/icanhazshortcut), e.g. via Homebrew `brew cask install icanhazshortcut`.
+1. Install [iCanHazShortcut](https://github.com/deseven/icanhazshortcut), e.g. via Homebrew `brew install --cask icanhazshortcut`.
 
 2. Start iCanHazShortcut and go to the Shortcuts tab of the Preferences window.
 
